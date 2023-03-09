@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Inter&family=League+Spartan:wght@400;500&family=Lexend+Deca&family=Montserrat:wght@500&family=Mulish:wght@500&family=Outfit:wght@300&family=Overpass:ital,wght@0,300;1,300&family=Poppins:wght@200;400;600&family=Roboto:ital,wght@0,500;1,500&family=Rubik&family=Ubuntu&display=swap');
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:  hsl(206, 6%, 79%);
+    display: flex;
+    justify-content: center;
+}
+.container{
+    background-color: hsl(0, 0%, 100%);
+    width: 70%;
+    height: 80vh;
+    margin-top: 40px;
+    display: flex;
+}
+.aside{
+    background:linear-gradient(45deg,#e942ff, #8838ff) ;
+    width: 190px;
+    margin-bottom: 140px;
+    border-radius: 0 0 60px 0px;
+}
+.phone{
+    width: 290px;
+    height: 350px;
+    margin-top: 40px;
+    margin-left: 10px;
+    border-radius: 20px;
+    background-color:  hsl(270, 20%, 96%);
+    
+}
+.header{
+    background: linear-gradient(45deg, #8838ff, #e942ff);
+    display: flex;
+    font-size: 10px;
+    height: 72px;
+    
+}
+.img img{
+    width: 30px;
+    margin-top: 15px;
+    margin-left: 15px;
+    border-radius: 50px;
+}
+.header .name{
+    margin-left: 10px;
+}
+.main{
+    width: 170px;
+}
+
+.main .text1{
+    color:  hsl(276, 55%, 52%);
+    background-color: hsl(206, 6%, 79%);
+    margin: 8px;
+    font-size: 7px;
+
+}
+
+.img1{
+    margin-left: 70px;
+}
+
+.img1 img{
+    width: 30px;
+    margin-top: 10px;
+    border-radius: 50px;
+}
+
+.main .text2{
+    color:   hsl(206, 6%, 79%);;
+    background-color: hsl(0, 0%, 100%);;
+    margin: 8px;
+    font-size: 7px;
+}
+.price{
+    margin-top: 10px;
+}
+.price .price1{
+display: flex;
+color: hsl(0, 0%, 100%);
+background: linear-gradient(45deg, #e942ff, #8838ff);
+font-size: 8px;
+margin: 8px;
+border-radius: 6px;
+}
+.price1 img{
+    border: 3px, white, solid;
+    border-radius: 50px;
+    margin-left: 15px;
+}
+.price1 p{
+    margin-left: 20px;
+}
+.price1 h3{
+    margin-left: 50px;
+}
+
+.price .price2{
+    display: flex;
+    color: hsl(0, 0%, 100%);
+    background: linear-gradient(45deg, #e942ff, #8838ff);
+    font-size: 8px;
+    margin: 8px;
+    border-radius: 6px;
+    
+    }
+    .price2 img{
+        border: 3px, white, solid;
+        border-radius: 50px;
+        margin-left: 15px;
+    }
+    .price2 p{
+        margin-left: 20px;
+    }
+
+.price2 h3{
+    margin-left: 50px;
+}
+
+.input input{
+    height: 27px;
+    width: 150px;
+    border-radius: 9px;
+    margin-left: 8px;
+    font-size: 10px;
+    border-color: hsl(0, 0%, 88%);
+    color: hsl(206, 6%, 79%);
+}
+
+.section{
+    width: 260px;
+    margin-left: 190px;
+    margin-top: 120px;
+    font-size: 15px;
+    font-family: Rubik;
+    text-align: center;
+}
+.section h1{
+    margin-right: 20px;
+    margin-top: 180px;
+    width: 200px;
+    font-size: 14px;
+}
+.section p{
+    margin-right: 20px;
+    font-size: 12px;
+    width: 200px;
+    
+}
+.aside1{
+    background: hsl(0, 0%, 88%);;
+    width: 180px;
+    margin-top: 140px;
+    border-radius: 60px 0 0 0px;
+}
+@media only screen and (max-width:600px) {
+    body{
+        overflow: scroll;
+    }
+    .container{
+        width: 300px;
+        display: block;
+    }
+}
+
+.section{
+    margin-top: 20px;
+    
+}
