@@ -22,7 +22,7 @@ body{
     border-radius: 0 0 60px 0px;
 }
 .phone{
-    width: 290px;
+    width: 180px;
     height: 350px;
     margin-top: 40px;
     margin-left: 10px;
@@ -132,7 +132,7 @@ border-radius: 6px;
 .section{
     width: 260px;
     margin-left: 190px;
-    margin-top: 120px;
+    margin-top: 20px;
     font-size: 15px;
     font-family: Rubik;
     text-align: center;
@@ -160,12 +160,11 @@ border-radius: 6px;
         overflow: scroll;
     }
     .container{
-        width: 300px;
+        width: 250px;
+        height: 50%;
         display: block;
     }
 }
-
 .section{
-    margin-top: 20px;
-    
+    margin-left: 40px;
 }
