@@ -10,7 +10,7 @@ body{
 }
 .container{
     background-color: hsl(0, 0%, 100%);
-    width: 58%;
+    width: 53%;
     height: 80vh;
     margin-top: 40px;
     display: flex;
