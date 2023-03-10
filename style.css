@@ -10,7 +10,7 @@ body{
 }
 .container{
     background-color: hsl(0, 0%, 100%);
-    width: 70%;
+    width: 60%;
     height: 80vh;
     margin-top: 40px;
     display: flex;
@@ -130,7 +130,7 @@ border-radius: 6px;
 }
 
 .section{
-    width: 260px;
+    width: 200px;
     margin-left: 190px;
     margin-top: 20px;
     font-size: 15px;
